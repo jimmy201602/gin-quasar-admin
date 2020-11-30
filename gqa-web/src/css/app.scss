@@ -1,0 +1,40 @@
+// app global css in SCSS form
+
+
+body{
+    background: $background;
+}
+.q-tab__content{
+    min-width: auto !important
+}
+
+.item-background{
+    background: scale-color($background, $lightness: -5%);
+}
+
+// .q-tree__node--link{
+
+// }
+.q-tree__node--selected {
+    background: $warning;
+}
+
+.q-form{
+    & .q-field{
+        &__bottom--animated{
+            left: -5px;
+            bottom: 16px !important;
+            z-index: 10;
+            & .q-field__messages{
+                & div{
+                    width: max-content;
+                    border-radius: 5px;
+                    background: $negative;
+                    color: #fff;
+                    padding: 5px;
+                }
+            }  
+        }
+    }
+}
+

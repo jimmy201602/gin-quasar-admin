@@ -1,0 +1,33 @@
+.idea/
+/gqa-web/node_modules
+/gqa-web/dist
+/gqa-web/.quasar
+/gqa-web/.vscode
+
+.DS_Store
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.quasar
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+go.sum
+/gqa-server/log/
+/gqa-server/gva
+/gqa-server/latest_log
+
+*.iml
